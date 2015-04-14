@@ -52,4 +52,10 @@
         </js-module>
     </platform>
 
+    <platform name="windows">
+        <js-module src="src/windows/YoikScreenOrientationProxy.js" name="YoikScreenOrientation">
+            <merges target="" />
+        </js-module>
+    </platform>
+
 </plugin>
